@@ -1,0 +1,62 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+PNUM	time.c	8;"	d	file:
+S	control.c	/^	int S,W,T;$/;"	m	struct:share_use	file:
+S	lclock.h	/^	int S,W,T;$/;"	m	struct:share_use
+SPACE	time.c	9;"	d	file:
+T	control.c	/^	int S,W,T;$/;"	m	struct:share_use	file:
+T	control.c	/^int T;$/;"	v
+T	lclock.h	/^	int S,W,T;$/;"	m	struct:share_use
+USERSPACE	time.c	10;"	d	file:
+W	control.c	/^	int S,W,T;$/;"	m	struct:share_use	file:
+W	lclock.h	/^	int S,W,T;$/;"	m	struct:share_use
+ac_fn_c_check_func	configure	/^ac_fn_c_check_func ()$/;"	f
+ac_fn_c_check_header_compile	configure	/^ac_fn_c_check_header_compile ()$/;"	f
+ac_fn_c_check_header_mongrel	configure	/^ac_fn_c_check_header_mongrel ()$/;"	f
+ac_fn_c_check_type	configure	/^ac_fn_c_check_type ()$/;"	f
+ac_fn_c_try_compile	configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_cpp	configure	/^ac_fn_c_try_cpp ()$/;"	f
+ac_fn_c_try_link	configure	/^ac_fn_c_try_link ()$/;"	f
+ac_fn_c_try_run	configure	/^ac_fn_c_try_run ()$/;"	f
+acquire_lock	lclock.h	/^void acquire_lock(loadlock* lock)$/;"	f
+as_fn_append	configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	configure	/^as_fn_error ()$/;"	f
+as_fn_exit	configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	configure	/^as_fn_unset ()$/;"	f
+buffer	control.c	/^	int buffer[10000];$/;"	m	struct:share_use	file:
+buffer	lclock.h	/^	int buffer[10000];$/;"	m	struct:share_use
+copy_time	time.c	/^void copy_time(long* de_time,long* de_retime)$/;"	f
+de_time	time.c	/^void de_time(double* ptime,long* de_time,long* de_retime)$/;"	f
+deamon_process	time.c	/^void deamon_process()$/;"	f
+get_time	time.c	/^void get_time(long* ptime)$/;"	f
+init_lock	lclock.h	/^void init_lock(loadlock* lock)$/;"	f
+lclock	lclock.h	/^typedef struct lclock$/;"	s
+loadlock	lclock.h	/^}loadlock;$/;"	t	typeref:struct:lclock
+main	control.c	/^int main()$/;"	f
+main	test.c	/^int main()$/;"	f
+main	time.c	/^int main(void)$/;"	f
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+read_usage	control.c	/^void read_usage()$/;"	f
+sdata	control.c	/^share* sdata;$/;"	v
+sdata	lclock.h	/^share* sdata;			\/\/共享数据$/;"	v
+share	control.c	/^}share;$/;"	t	typeref:struct:share_use	file:
+share	lclock.h	/^}share;$/;"	t	typeref:struct:share_use
+share_use	control.c	/^typedef struct share_use$/;"	s	file:
+share_use	lclock.h	/^typedef struct share_use$/;"	s
+sko_token	time.c	/^static char* sko_token(const char * buf)$/;"	f	file:
+status	lclock.h	/^	int status;		\/\/ 当前状态$/;"	m	struct:lclock
+system_reboot	time.c	/^void system_reboot()$/;"	f
+total_time	time.c	/^long total_time(long* ptime)$/;"	f
+try_lock	lclock.h	/^static inline int try_lock(loadlock* lock)$/;"	f
+write_log	time.c	/^int write_log(const char* pstr)$/;"	f
